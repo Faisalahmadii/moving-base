@@ -7,7 +7,7 @@ With our IoT-based project, we address the transportation challenges faced acros
 The integration of IoT technology brings real-time data, advanced algorithms, and seamless connectivity into the transportation landscape, transforming the way stores and other sectors handle their transportation operations.
 
 
-#Project Overview:
+# Project Overview:
 Our project encompasses three distinct operational modes, each offering unique functionality and control capabilities for the moving base:
 
 1-	User-Controlled Mode:
@@ -20,25 +20,25 @@ Operating independently, the Arduino empowers the moving base to navigate its en
 In the third mode, the moving base environment is divided into a matrix grid, allowing users to specify precise destinations by entering coordinates such as [0][3]. Users input these coordinates via Node-RED, and the data is transmitted to the Arduino through MQTT and an ESP8266 module. The Arduino interprets the coordinates and navigates the base to the specified point within the matrix, providing users with precise control over the base's movement within the environment.
 
 
-	#Project Design and components
-	##Hardware Components:
+	# Project Design and components
+	## Hardware Components:
 •	Arduino Mega 2560
 •	HC-SR04 Ultrasonic Sensor
 •	Motor Control Shield
 •	ESP8266
 •	DC Motor & Wheels
 
-	##Software:
+	## Software:
 •	Arduino IDE
 •	User interface
 •	MQTT.fx
 
-#Flowchart:
+# Flowchart:
 
-##Mod 1&2:
+## Mod 1&2:
  ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/9f2dad15-d84b-491c-a8b6-4db3a3ecfd9b)
 
-##Mod 3:
+## Mod 3:
 ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/0f28d118-48a8-4a41-bd97-006f96cdc0b8)
  
 # Sequence diagrams:
