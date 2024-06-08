@@ -20,18 +20,18 @@ Operating independently, the Arduino empowers the moving base to navigate its en
 In the third mode, the moving base environment is divided into a matrix grid, allowing users to specify precise destinations by entering coordinates such as [0][3]. Users input these coordinates via Node-RED, and the data is transmitted to the Arduino through MQTT and an ESP8266 module. The Arduino interprets the coordinates and navigates the base to the specified point within the matrix, providing users with precise control over the base's movement within the environment.
 
 
-	# Project Design and components
-	## Hardware Components:
-•	Arduino Mega 2560
-•	HC-SR04 Ultrasonic Sensor
-•	Motor Control Shield
-•	ESP8266
-•	DC Motor & Wheels
+# Project Design and components
+## Hardware Components:
+1-Arduino Mega 2560
+2-HC-SR04 Ultrasonic Sensor
+3-Motor Control Shield
+4-ESP8266
+5-DC Motor & Wheels
 
-	## Software:
-•	Arduino IDE
-•	User interface
-•	MQTT.fx
+## Software:
+1-Arduino IDE
+2-User interface
+3-MQTT.fx
 
 # Flowchart:
 
