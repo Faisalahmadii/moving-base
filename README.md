@@ -102,19 +102,23 @@ then the moving base robot continues to proceed,
 This image is a schematic representation of a grid-based navigation system for a car within a room. The diagram includes the car's dimensions, room dimensions, and the calculation for the number of blocks in the grid. Here's a detailed explanation of each component in the diagram: Diagram Components:
 
 1.   Car Dimensions:
+   
 Car Length (L): 0.42 meters
 
 Car Width (W): 0.42 meters
 
 2.  Room Dimensions:
+   
 Room Length (RL): 2.10 meters
 
 Room Width (RW): 2.10 meters
 
 3.  Grid Representation:
+   
 The room is divided into a grid based on the car's dimensions. Each block in the grid represents a space that can fit the car.
 
 4.  Grid Calculations:
+   
 R (Number of Rows): Calculated by dividing the room length (RL) by the car length (L).
 
 R=RLL=2.100.42=5
@@ -124,6 +128,7 @@ C (Number of Columns): Calculated by dividing the room width (RW) by the car wid
 C=RW/W=2.10/0.42=5
 
 5.   Speed and Time Calculations:
+   
 S (Speed): Represented as distance divided by time
 
 S=d/t
