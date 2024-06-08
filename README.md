@@ -57,8 +57,11 @@ The sequence diagram for the Moving Base Project details the interactions and pr
  ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/dbf266bd-c9cf-4beb-92b4-042d21a0b4b3)
 
 
- # RESULT:
+ # RESULT & System model:
 ## Mode1(User-Controlled Mode):
+
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/d7b4fc3c-5a9d-4d7c-9150-ba24f12f0932)
+
 ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/a2c44b05-8e22-4a8f-a47b-1f0064163195)
 
 In this figure, the user is commanding the moving base robot to move forward using a control panel on Node-RED displayed on a phone, directing the moving base robot to advance in User-Controlled mode. The robot responds to this input by moving forward, 
@@ -69,6 +72,9 @@ The user now selects the "Right" command on the Node-RED control panel, directin
 
 
 ## MODE2 (Autonomous Mode):
+
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/9b8f2d29-7994-474c-ad36-5b273278e74b)
+
 ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/c735a520-4ccf-48e9-a70f-48b89a7073f3)
 
  In this image, the moving base robot is shown in Autonomous mode, where it has encountered an obstacle directly in its path. This situation highlights the robot's capability to detect and respond to obstacles in its environment autonomously
@@ -78,7 +84,9 @@ The user now selects the "Right" command on the Node-RED control panel, directin
  After detecting an obstacle, the moving base robot uses its left and right sensors to read distances. It then moves toward the direction with the higher distance value.
 then the moving base robot continues to proceed, 
 
-## Mode 3 (Grid-Based Navigation Mode)
+## Mode 3 (Grid-Based Navigation Mode):
+
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/fb17913e-36c6-4912-8bcb-55994c197733) 
 
 ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/3aee14cb-2c60-496c-98ff-8ce136e7ddff)
 
@@ -89,4 +97,41 @@ then the moving base robot continues to proceed,
   ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/45ed3b53-5195-45ca-b9a2-05f5ca694477)
 
 
-  
+# How to construct the matrix and dimensions(Mod 3):
+
+This image is a schematic representation of a grid-based navigation system for a car within a room. The diagram includes the car's dimensions, room dimensions, and the calculation for the number of blocks in the grid. Here's a detailed explanation of each component in the diagram: Diagram Components:
+
+1.   Car Dimensions:
+Car Length (L): 0.42 meters
+
+Car Width (W): 0.42 meters
+
+2.  Room Dimensions:
+Room Length (RL): 2.10 meters
+
+Room Width (RW): 2.10 meters
+
+3.  Grid Representation:
+The room is divided into a grid based on the car's dimensions. Each block in the grid represents a space that can fit the car.
+
+4.  Grid Calculations:
+R (Number of Rows): Calculated by dividing the room length (RL) by the car length (L).
+
+R=RLL=2.100.42=5
+
+C (Number of Columns): Calculated by dividing the room width (RW) by the car width (W).'
+
+C=RW/W=2.10/0.42=5
+
+5.   Speed and Time Calculations:
+S (Speed): Represented as distance divided by time
+
+S=d/t
+
+B (Time for One Block): The time it takes for the car to move one block in the grid.
+
+B=CarW/S
+
+B=CarL/S
+
+
