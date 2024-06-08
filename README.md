@@ -80,3 +80,13 @@ then the moving base robot continues to proceed,
 
 ## Mode 3 (Grid-Based Navigation Mode)
 
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/3aee14cb-2c60-496c-98ff-8ce136e7ddff)
+
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/01e89621-7122-4277-a513-b42091c484fc)
+
+ ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/bf6fbbf3-d23e-499e-8eec-bba6fb779786)
+
+  ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/45ed3b53-5195-45ca-b9a2-05f5ca694477)
+
+
+  
