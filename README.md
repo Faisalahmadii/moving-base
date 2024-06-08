@@ -60,15 +60,21 @@ The sequence diagram for the Moving Base Project details the interactions and pr
  # RESULT:
 ## Mode1(User-Controlled Mode):
 ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/a2c44b05-8e22-4a8f-a47b-1f0064163195)
+
 In this figure, the user is commanding the moving base robot to move forward using a control panel on Node-RED displayed on a phone, directing the moving base robot to advance in User-Controlled mode. The robot responds to this input by moving forward, 
+
 ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/c51b55a8-e012-4c5a-9bb3-187f76f82c5e)
+
 The user now selects the "Right" command on the Node-RED control panel, directing the robot to turn right.
 
 
 ## MODE2 (Autonomous Mode):
 ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/c735a520-4ccf-48e9-a70f-48b89a7073f3)
+
  In this image, the moving base robot is shown in Autonomous mode, where it has encountered an obstacle directly in its path. This situation highlights the robot's capability to detect and respond to obstacles in its environment autonomously
+ 
  ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/d37cbe6f-ffd6-4cf5-8f75-32b44006cfe7)
+ 
  After detecting an obstacle, the moving base robot uses its left and right sensors to read distances. It then moves toward the direction with the higher distance value.
 then the moving base robot continues to proceed, 
 
