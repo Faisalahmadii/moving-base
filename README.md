@@ -1,4 +1,4 @@
-  # INTRODUCTION:
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/d5a046dd-486f-4970-8299-34e8e282f02f)  # INTRODUCTION:
 In today's industries, transportation operations encounter numerous challenges, including the movement of goods, returning to the original point, and the transportation of heavy materials. These challenges often result in high labor costs and the need for efficient logistics services. To overcome these obstacles, we have developed an innovative IoT project that revolutionizes transportation processes.
 Our project combines a mobile base, equipped with sensors, a microcontroller, and MQTT communications, to provide a versatile and efficient solution. Our primary objective is to simplify resource transportation, reduce labor costs, and facilitate the movement of heavy and bulky items.
 Utilizing advanced motion algorithms, including autonomous mode, user-controlled mode, and grid-based navigation mode, our project enables the mobile base to adapt to dynamic conditions seamlessly. This intelligent mobility capability significantly enhances movement efficiency while ensuring the safe transportation of goods and resources.
@@ -141,5 +141,15 @@ B=CarL/S
 
 ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/1379b3e0-b7f5-43a0-a35b-8e59d2eb4112)
 
+
+# NODE-RED  
+## Node Red Design
+
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/6d038499-9b16-4c31-8dba-d1833cff5fa4)
+
+
+## Node Red interface
+
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/554a5493-26bd-4a69-b619-54dc43303f4f)
 
 
