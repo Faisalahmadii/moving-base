@@ -27,6 +27,7 @@ In the third mode, the moving base environment is divided into a matrix grid, al
 3-Motor Control Shield
 4-ESP8266
 5-DC Motor & Wheels
+6- power
 
 ## Software:
 1-Arduino IDE
@@ -47,4 +48,29 @@ The sequence diagram for the Moving Base Project details the interactions and pr
 ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/10c70b9f-cc98-46e9-be48-d942bfc813a3)
 
 
+
+# Circuit diagram:
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/f90a0564-b60d-47c5-b2bf-7b65189292f0)
+
+# Prototype:
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/d5f26d26-5dc7-4783-a5d1-97abab434e7b)
+ ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/dbf266bd-c9cf-4beb-92b4-042d21a0b4b3)
+
+
+ # RESULT:
+## Mode1(User-Controlled Mode):
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/a2c44b05-8e22-4a8f-a47b-1f0064163195)
+In this figure, the user is commanding the moving base robot to move forward using a control panel on Node-RED displayed on a phone, directing the moving base robot to advance in User-Controlled mode. The robot responds to this input by moving forward, 
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/c51b55a8-e012-4c5a-9bb3-187f76f82c5e)
+The user now selects the "Right" command on the Node-RED control panel, directing the robot to turn right.
+
+
+## MODE2 (Autonomous Mode):
+![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/c735a520-4ccf-48e9-a70f-48b89a7073f3)
+ In this image, the moving base robot is shown in Autonomous mode, where it has encountered an obstacle directly in its path. This situation highlights the robot's capability to detect and respond to obstacles in its environment autonomously
+ ![image](https://github.com/Faisalahmadii/moving-base/assets/170818993/d37cbe6f-ffd6-4cf5-8f75-32b44006cfe7)
+ After detecting an obstacle, the moving base robot uses its left and right sensors to read distances. It then moves toward the direction with the higher distance value.
+then the moving base robot continues to proceed, 
+
+## Mode 3 (Grid-Based Navigation Mode)
 
